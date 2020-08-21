@@ -12,15 +12,20 @@ var readState;
 var bedroom, garden, washroom;
 var currentTime;
 var gameState;
+var bedroomIMG, gardenIMG, washroomIMG;
 
 function preload()
 {
   dogIMG = loadAnimation("images/Dog.png");
   happyDog = loadAnimation("images/happydog.png");
 
-  bedroom = loadAnimation("images/virtual pet images/Bed Room.png");
-  garden = loadAnimation("images/virtual pet images/Garden.png");
-  washroom = loadAnimation("images/virtual pet images/Wash Room.png");
+  //bedroom = loadAnimation("images/virtual pet images/Bed Room.png");
+  //garden = loadAnimation("images/virtual pet images/Garden.png");
+  //washroom = loadAnimation("images/virtual pet images/Wash Room.png");
+
+  bedroomIMG = loadImage("images/Bed Room.png")
+  gardenIMG = loadImage("images/Garden.png")
+  washroomIMG = loadImage("images/Wash Room.png")
 }
 
 function setup() {
